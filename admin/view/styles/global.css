@@ -1,0 +1,27 @@
+
+*{
+font-family: 'Roboto', sans-serif;
+}
+
+.Bar{
+  height:100px;
+  width:100%;
+
+  background-color:black;
+}
+
+.lower{
+  bottom:0px;
+  position: relative;
+}
+section.content{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  flex-direction: column;
+  margin:80px;
+}
+
+[data-id="Check Data"]{
+  display:none;
+}

@@ -1,0 +1,21 @@
+
+@media all and (max-width:1300px) {
+  .lower{
+    position: relative;
+  }
+
+  .form-group{
+    width:auto;
+    margin-top:10px;
+  }
+
+  .form-group label{
+    width:auto;
+
+  }
+
+  .formColor{
+    width:auto;
+  }
+
+}

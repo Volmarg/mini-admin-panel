@@ -1,0 +1,133 @@
+
+*{
+font-family: 'Roboto', sans-serif;
+}
+
+body{
+  background-color: black;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.blackBox{
+  background-color: black;
+  padding: 20px;
+  margin: 30px;
+
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+
+  width:70%;
+
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.nameWrapper h1{
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 10px;
+    font-size: 60px;
+}
+
+.boldedText{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+
+  margin:0px;
+}
+
+.boldedText p{
+  font-weight: bold;
+  margin: 15px;
+  color:black;
+  text-transform: none;
+}
+
+
+.lower{
+  bottom:0px;
+  position: absolute;
+
+}
+
+
+section.content{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  flex-direction: column;
+  margin:50px;
+
+  background-color:white;
+  width:50%;
+}
+
+section.content *{
+  align-self: center;
+}
+
+.warningBox{
+    display: block !important;
+    text-align: center;
+    text-transform: none;
+    font-weight: 100;
+}
+
+/* FORMS */
+.form-group{
+  width:350px;
+  margin-top:10px;
+}
+
+.form-group label{
+  width:150px;
+
+}
+
+.form-group label, label{
+    color:black;
+    text-transform: uppercase;
+}
+
+input+label{
+  margin-left:10px;
+}
+
+.form-group form{
+  width:200px;
+}
+
+.validate{
+  background-color:black;
+  border-color:black;
+  text-transform: uppercase;
+  height:45px;
+  width:110px;
+
+  margin:20px;
+}
+
+.formColor{
+  background-color: rgb(254, 255, 217);
+  padding: 25px;
+  width:422px;
+}
+
+/*Informacje*/
+
+h1{
+  font-weight: 100;
+}
+
+.smallInfo{
+  text-transform: uppercase;
+  color:rgba(0,0,0,0.4);
+  width: 70%;
+
+  align-self: center;
+  text-align: center;
+}
